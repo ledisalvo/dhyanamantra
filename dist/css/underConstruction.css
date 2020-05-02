@@ -1,0 +1,14 @@
+.title-generic {
+  width: 100%;
+  text-align: center;
+}
+
+.title-generic h1 {
+  width: 100%;
+  font-size: 60px;
+}
+
+.title-generic p {
+  width: 100%;
+  font-size: 20px;
+}
