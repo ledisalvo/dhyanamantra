@@ -2,11 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhyanamantra - Centro de bienestar</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="./dist/css/bootstrap/bootstrap.css" crossorigin="anonymous">
-
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./dist/css/styles.css">
 
     <!-- Font awesome resources -->
@@ -14,157 +12,276 @@
     <script src="./dist/font-awesome/js/all.js"></script>
 </head>
 <body>
-    <!-- Inicio del header -->
-
-    <header id="header">
-        <div class="row col-md-12">
-            <div class="col-md-2">
-                <a href="./index.html"><img src="./dist/images/logo_original.jpeg" alt="Dhyanamantra"></a>
+    <header id="header" class="col-12">
+        <div class="row">
+            <div id="logo-header" class="col-2">
+                <img src="./dist/img/logo.png" alt="Yoga-Espacio Holístico">
             </div>
-            <nav id="nav" class="col-md-8">
-                <ul>
-                    <li><a href="./about_us.html">Conocenos</a></li>
-                    <li>
-                        <a href="./underConstruction.html">Clases</a>
-                        <ul>
-                            <li><a href="./que-es-hatha-yoga.html">Hatha Yoga</a></li>
-                            <li><a href="./underConstruction.html">Yoga Integral</a></li>
-                            <li><a href="./underConstruction.html">Aeroyoga</a></li>
-                            <li><a href="./underConstruction.html">Meditación</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="./underConstruction.html">Servicios</a>
-                        <ul>
-                            <li><a href="./que-es-reiki.html">Reiki</a></li>
-                            <li><a href="./que-es-coaching.html">Coach ontológico</a></li>
-                            <li><a href="./flores-bach.html">Terápia floral</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="./underConstruction.html">Cursos y talleres</a></li>
-                <ul/>
+            <nav class="col-10 d-none d-sm-block menu">
+                <ul class="row">
+                    <li class="col">Clases</li>
+                    <li class="col">Productos</li>
+                    <li class="col">Terapias</li>
+                    <li class="col">Contactanos</li>
+                </ul>
             </nav>
-            <div class="col-md-2">
-                <p>Dhyanamantra</p>
-            </div>
+            <nav class="col-10 d-block d-sm-none menu-sm">
+                <ul>
+                    <li class="col"><a href="#"><i class="fas fa-bars"></i></a>
+                        <ul>
+                            <li class="col"><a href="#">Clases</a></li>
+                            <li class="col"><a href="#">Productos</a></li>
+                            <li class="col"><a href="#">Terapias</a></li>
+                            <li class="col"><a href="#">Contactanos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Fin del header -->
-
-    <!-- Inicio de cuerpo principal -->
-
-    <div id="content" class="container">
-        <div class="row col-md-12" >
-            <div class="post-big">
-                <div class="post-big-text">
-                    <h1>¿Qué es Hatha Yoga?</h1>
-                    <p>
-                        Hatha Yoga se basa en prácticas de posturas (asanas), respiraciones (pranayamas) y meditaciones para trabajar a nivel físico, orgánico, mental, emocional y energético.
-                    </p>
-                    <span class="read-more"><a href="./que-es-hatha-yoga.html">Leer más...</a></span>
-                </div>
+    <section id="principal" class="col-12">
+        <div class="img-principal">
+            <div id="title-principal">
+                <h1>Dhyanamantra</h1>
+                <h6>Yoga-Espacio Holístico</h6>
             </div>
         </div>
-        <div class="col-md-12 separator"></div>
-        <div class="row col-md-12 section">
-            <section id="left" class="box col-md-8">
-                <div class="post-small">
-                    <img src="./dist/images/250.png" alt="">
-                    <h4>Titulo</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                       when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <span class="read-more"><a href="#">Leer más...</a></span>       
+    </section>
+
+    <div class="container-fluid">
+        <section id="next-events" class="col-12 pb-80 coloured-pastel"> 
+            <div class="row">
+                <div id="title-section">
+                    <h1>Clases y eventos</h1>
                 </div>
-                <div class="post-small">
-                    <img src="./dist/images/250.png" alt="">
-                    <h4>Titulo</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                       when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <span class="read-more"><a href="#">Leer más...</a></span>       
+            </div>
+            <div class="row">
+                <div class="card mb-3 event-box">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./dist/img/pausa_activa.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title event-title">Taller de pausa activa</h5>
+                                <div class="row event-datetime">
+                                    <p class="col"><i class="far fa-calendar-check"></i>  01/01/2020</p>
+                                    <p class="col"><i class="far fa-clock"></i>  12:00 Hs</p>
+                                </div>
+                                <p class="card-text">
+                                    La ansiedad puede ser normal, en una situación como la que nos toca atravesar 
+                                    hoy a nivel mundial, porque estamos bombardeados de información, porque no sabemos 
+                                    qué sucederá con nuestro trabajo, por la enfermedad en sí. El asunto es cuando se sostiene
+                                    en el tiempo este estado de temor, y perdemos el control de nuestras emociones.
+                                </p>
+                                <p class="card-text"><small class="text-muted">¡Anotate!</small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section id="right" class="box2 col-md-4">
-                <h2 id="title-section" >Próximos eventos</h2>
-                <div class="next-event">
-                    <p>Taller online de Pausa Activa</p>
-                    <p id="hour-date"><i class="far fa-calendar-alt"></i> Sábado 11/04</p>
-                    <p id="hour-date"><i class="far fa-clock"></i> 11 Hs</p>
+            </div>
+            <div class="row">
+                <div class="card mb-3 event-box">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./dist/img/pausa_activa.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title event-title">Taller de pausa activa</h5>
+                                <div class="row event-datetime">
+                                    <p class="col"><i class="far fa-calendar-check"></i>  01/01/2020</p>
+                                    <p class="col"><i class="far fa-clock"></i>  12:00 Hs</p>
+                                </div>
+                                <p class="card-text">
+                                    La ansiedad puede ser normal, en una situación como la que nos toca atravesar 
+                                    hoy a nivel mundial, porque estamos bombardeados de información, porque no sabemos 
+                                    qué sucederá con nuestro trabajo, por la enfermedad en sí. El asunto es cuando se sostiene
+                                    en el tiempo este estado de temor, y perdemos el control de nuestras emociones.
+                                </p>
+                                <p class="card-text"><small class="text-muted">¡Anotate!</small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="next-event">
-                    <p>Taller online de Pausa Activa</p>
-                    <p id="hour-date"><i class="far fa-calendar-alt"></i> Sábado 11/04</p>
-                    <p id="hour-date"><i class="far fa-clock"></i> 11 Hs</p>
+            </div> 
+            <div class="row">
+                <div class="card mb-3 event-box">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./dist/img/pausa_activa.png" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title event-title">Taller de pausa activa</h5>
+                                <div class="row event-datetime">
+                                    <p class="col"><i class="far fa-calendar-check"></i>  01/01/2020</p>
+                                    <p class="col"><i class="far fa-clock"></i>  12:00 Hs</p>
+                                </div>
+                                <p class="card-text">
+                                    La ansiedad puede ser normal, en una situación como la que nos toca atravesar 
+                                    hoy a nivel mundial, porque estamos bombardeados de información, porque no sabemos 
+                                    qué sucederá con nuestro trabajo, por la enfermedad en sí. El asunto es cuando se sostiene
+                                    en el tiempo este estado de temor, y perdemos el control de nuestras emociones.
+                                </p>
+                                <p class="card-text"><small class="text-muted">¡Anotate!</small></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="next-event">
-                    <p>Taller online de Pausa Activa</p>
-                    <p id="hour-date"><i class="far fa-calendar-alt"></i> Sábado 11/04</p>
-                    <p id="hour-date"><i class="far fa-clock"></i> 11 Hs</p>
+            </div> 
+        </section>
+
+        <section id="products" class="col-12 pb-80 coloured-light"> 
+            <div class="row">
+                <div id="title-section">
+                    <h1>Nuestros productos</h1>
                 </div>
-                <div class="separator"></div>
-                <h2 id="title-section" >Newsletter</h2>
-                <form id="newsletter" action="" method="post">
-                    <label for="mail">Email</label>
-                    <input type="email" name="email" id="">
-                    <button type="submit">Suscribirse</button>
+            </div>
+            <div class="row ">
+                <div class="photo-container">
+                    <div class="col-12">
+                        <div class="row product-img">
+                            <div class="col-12 col-sm-12 col-lg-4 col-xl-5 p-0">
+                                <img src="./dist/img/vela_475x250.png" alt="">
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4 col-xl-4 p-0">
+                                <img src="./dist/img/vela_380x250.png" alt="">
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4 col-xl-3 p-0">
+                                <img src="./dist/img/vela_285x250.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row product-img">
+                            <div class="col-12 col-sm-12 col-lg-4 col-xl-3 p-0">
+                                <img src="./dist/img/vela_285x250_2.png" alt="">
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4 col-xl-3 p-0">
+                                <img src="./dist/img/vela_285x250_3.png" alt="">
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-4 col-xl-6 p-0">
+                                <img src="./dist/img/vela_570x250.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="therapyes" class="col-12 pb-80 coloured-pastel"> 
+            <div class="row">
+                <div id="title-section">
+                    <h1>Terapias</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card-deck therapy-container">
+                    <div class="card">
+                      <img src="./dist/img/250.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Quiero saber más...</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="./dist/img/250.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Quiero saber más...</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="./dist/img/250.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Quiero saber más...</small>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section id="contact" class="col-12 coloured-light"> 
+            <div class="row">
+                <div id="title-section">
+                    <h1>Contactanos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                        </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">No compartiremos tu mail con nadie, es solo para contactarte.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">Localidad</label>
+                        <input type="text" class="form-control" id="state">
+                        </div>
+                    <div class="form-group">
+                        <label>¿Sobre que quieres recibir información?</label>
+                    </div>
+                    <div class="form-group form-check">
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" class="form-check-input" id="productsCheck">
+                                <label class="form-check-label" for="productsCheck">Productos</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" class="form-check-input" id="coursesCheck">
+                                <label class="form-check-label" for="coursesCheck">Cursos y Clases</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" class="form-check-input" id="therapyCheck">
+                                <label class="form-check-label" for="therapyCheck">Terapias</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="button-form" class="row">
+                        <button type="submit" class="btn">Enviar</button>
+                    </div>
                 </form>
-            </section>
-        </div>
-        <div class="col-md-12 separator"></div>
-        <div class="row col-md-12">
-            <h1 id="title-section">Clases, talleres y charlas online</h1>
-            <iframe width="820" height="315"
-            src="https://www.youtube.com/embed/a376zRhSXXI">
-            </iframe> 
-        </div>
-        
-        <!-- <div class="row separator-title">
-            <h1>Próximos eventos</h1>
-        </div>
-        <div class="row event">
-            <div class="col-md-6 event-img">
-                <img src="./dist/images/events/taller-manejo-ansiedad.png" alt="Taller de manejo de la ansiedad">
             </div>
-            <div class="col-md-6 event-info">
-                <h1 id="event-info-header">No te pierdas este taller online y gratuito</h1>
-                <p>Llamamos pausa activa a frenar un rato nuestras tareas cotidianas y tomar consciencia sobre uno mismo.</p>
-                <p>Qué siento? Y que hago con ese sentimiento? Qué hubiera hecho en otra situación similar? 😕😪😡😊</p>
-                <p>Todo esto vamos a estar viendo en el taller Manejo de la Ansiedad.</p>
-                <p>Click <a target="_blank" href="https://forms.gle/avEFuU1AueNoRwM6A">aquí</a> para anotarte</p>
-                <div class="date-hour-info">
-                    <p><i class="far fa-calendar-alt"></i> Sábado 11 de Abril</p>
-                    <p><i class="far fa-clock"></i> 11 Hs</p>
-                </div>
-            </div>
-        </div> -->
+        </section>
     </div>
-    
-    <!-- Fin de cuerpo principal -->
 
-    <!-- Inicio del footer -->
-
-    <footer id="footer">
-        <div class="row col-md-12">
-            <div class="col-md-10">
-                <div id="social-media">
-                    <p>Seguinos en nuestras redes sociales</p>
-                    <ul>
-                        <li><a  target="_blank" href="https://www.instagram.com/dhyanamantra/"><i class="fab fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="https://www.facebook.com/DhyanaMantra-107240584274530/"><i class="fab fa-facebook"></i></a></li>
-                    </ul>
+    <footer id="footer" class="col-12">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-4 col-lg-3 logo-footer">
+                <img src="./dist/img/logo.png" alt="Yoga-Espacio Holístico">
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-6">
+                <div class="footer-branch">
+                    <p>Dhyanamantra</p>
                 </div>
             </div>
-            <div id="logo-footer" class="col-md-2">
-                <a href="./index.html"><img src="./dist/images/logo_original.jpeg" alt="Dhyanamantra"></a>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="footer-socialmedia">
+                    <p class="col"><i class="fab fa-instagram"></i> /Dhyanamantra</p>
+                </div>
             </div>
-        </div>
-        <div id="copyright" class="row col-md-12">
-            <p>Diseño web: &copy <a target="_blank" href="http://www.byterevolution.net">Byte Revolution</a>. - 2020 - Todos los derechos reservados.</p>
         </div>
     </footer>
 
-    <!-- Fin del footer -->
+    <script text="text/javascript" src="./dist/jquery/jquery-3.5.1.min.js"></script>
+    <script text="text/javascript" src="./dist/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
